@@ -10207,6 +10207,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 11.43 -5.08 180)
+				(length 3.81)
+				(name "VDDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at 11.43 0 180)
 				(length 3.81)
@@ -11647,24 +11665,6 @@
 					)
 				)
 				(number "P9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 11.43 -5.08 180)
-				(length 3.81)
-				(name "VDDI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R4"
 					(effects
 						(font
 							(size 1.27 1.27)

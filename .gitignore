@@ -1,3 +1,6 @@
 *.kicad_prl
 HorizonPC-backups
 *.log
+Sim
+*.lck
+*.tgz

@@ -2563,6 +2563,206 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "PUSB3TB6AZ"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 2.794 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PUSB3TB6AZ"
+			(at 8.128 -8.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HorizonPC:XSON7_PUSB3_NEX"
+			(at 0 -18.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PUSB3TB6AZ_1_1"
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_out line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 7.62 270)
+				(length 2.54)
+				(name "CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 7.62 270)
+				(length 2.54)
+				(name "CH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "CH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "CH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 7.62 270)
+				(length 2.54)
+				(name "CH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 7.62 270)
+				(length 2.54)
+				(name "CH6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "R9A07G043F05GBG#BC0"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2697,8 +2897,8 @@
 		(symbol "R9A07G043F05GBG#BC0_1_1"
 			(unit_name "Power")
 			(rectangle
-				(start -13.97 13.97)
-				(end 13.97 -13.97)
+				(start -13.97 17.78)
+				(end 13.97 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2708,7 +2908,7 @@
 				)
 			)
 			(pin power_out line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -2726,7 +2926,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2744,27 +2944,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2783,7 +2964,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2802,7 +2983,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2821,7 +3002,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2840,7 +3021,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2859,7 +3040,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 11.43 180)
+				(at 19.05 15.24 180)
 				(length 5.08)
 				(name "USB_VDD18"
 					(effects
@@ -2877,7 +3058,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 11.43 180)
+				(at 19.05 15.24 180)
 				(length 5.08)
 				(hide yes)
 				(name "USB_VDD18"
@@ -2896,7 +3077,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2915,7 +3096,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2934,7 +3115,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 11.43 180)
+				(at 19.05 15.24 180)
 				(length 5.08)
 				(hide yes)
 				(name "USB_VDD18"
@@ -2953,7 +3134,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2972,7 +3153,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -2991,7 +3172,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3010,7 +3191,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3029,7 +3210,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3048,7 +3229,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3067,7 +3248,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3086,7 +3267,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3105,7 +3286,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3124,7 +3305,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3143,7 +3324,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3161,84 +3342,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AD9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AD10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AD11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AD12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3257,7 +3362,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3276,7 +3381,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3295,7 +3400,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3314,7 +3419,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3333,7 +3438,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3352,7 +3457,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3370,84 +3475,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3466,7 +3495,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3485,7 +3514,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3514,25 +3543,6 @@
 						)
 					)
 				)
-				(number "B18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
-				(length 5.08)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "B21"
 					(effects
 						(font
@@ -3542,7 +3552,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -6.35 0)
+				(at -19.05 -2.54 0)
 				(length 5.08)
 				(name "SPI_PVDD"
 					(effects
@@ -3560,7 +3570,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3579,7 +3589,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -3597,7 +3607,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3616,7 +3626,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3635,7 +3645,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3654,7 +3664,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3673,7 +3683,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3692,7 +3702,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3711,7 +3721,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3730,7 +3740,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(hide yes)
 				(name "PVDD"
@@ -3749,7 +3759,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3768,7 +3778,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -1.27 180)
+				(at 19.05 0 180)
 				(length 5.08)
 				(name "PLL6_AVDD18"
 					(effects
@@ -3786,7 +3796,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3805,7 +3815,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(hide yes)
 				(name "PVDD"
@@ -3843,7 +3853,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3861,11 +3871,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
+			(pin power_in line
+				(at 19.05 -12.7 180)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "ADC_AVDD18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3881,7 +3890,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3900,7 +3909,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(hide yes)
 				(name "PVDD"
@@ -3919,7 +3928,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3938,7 +3947,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -1.27 0)
+				(at -19.05 2.54 0)
 				(length 5.08)
 				(name "SD0_PVDD"
 					(effects
@@ -3956,7 +3965,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3975,7 +3984,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -3994,7 +4003,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4013,7 +4022,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4032,7 +4041,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 6.35 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(name "DDR_VDDQ"
 					(effects
@@ -4050,7 +4059,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4069,7 +4078,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4088,7 +4097,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4107,7 +4116,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4126,7 +4135,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4145,7 +4154,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4164,7 +4173,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4183,7 +4192,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4202,7 +4211,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 -3.81 0)
+				(at -19.05 0 0)
 				(length 5.08)
 				(name "SD1_PVDD"
 					(effects
@@ -4220,7 +4229,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -4238,7 +4247,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4257,7 +4266,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4276,7 +4285,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4295,7 +4304,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(hide yes)
 				(name "DDR_VDDQ"
@@ -4314,7 +4323,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4333,7 +4342,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -3.81 180)
+				(at 19.05 -2.54 180)
 				(length 5.08)
 				(name "PLL1_AVDD18"
 					(effects
@@ -4351,7 +4360,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4370,7 +4379,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4389,7 +4398,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4408,7 +4417,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4427,7 +4436,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4446,7 +4455,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4465,7 +4474,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4484,7 +4493,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4503,7 +4512,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4522,7 +4531,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4541,7 +4550,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4560,7 +4569,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(hide yes)
 				(name "DDR_VDDQ"
@@ -4579,7 +4588,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4598,7 +4607,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4617,7 +4626,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4636,7 +4645,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4655,7 +4664,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4674,7 +4683,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4693,7 +4702,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -8.89 180)
+				(at 19.05 -7.62 180)
 				(length 5.08)
 				(name "PLL4_AVDD18"
 					(effects
@@ -4711,7 +4720,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4730,7 +4739,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4749,7 +4758,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 3.81 0)
+				(at -19.05 7.62 0)
 				(length 5.08)
 				(name "PVDD_ETH0"
 					(effects
@@ -4767,7 +4776,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 1.27 180)
+				(at 19.05 2.54 180)
 				(length 5.08)
 				(name "VDD18"
 					(effects
@@ -4785,7 +4794,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4804,7 +4813,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4823,7 +4832,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4842,7 +4851,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4861,7 +4870,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4880,7 +4889,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4899,7 +4908,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4918,7 +4927,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4937,7 +4946,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4956,7 +4965,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -4975,7 +4984,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -4994,7 +5003,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(hide yes)
 				(name "DDR_VDDQ"
@@ -5013,7 +5022,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5032,7 +5041,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5051,7 +5060,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 3.81 180)
+				(at 19.05 7.62 180)
 				(length 5.08)
 				(name "PLL23_DVDD11"
 					(effects
@@ -5069,7 +5078,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -5088,7 +5097,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -5107,7 +5116,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -5126,7 +5135,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VDD"
@@ -5145,7 +5154,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5164,7 +5173,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -6.35 180)
+				(at 19.05 -5.08 180)
 				(length 5.08)
 				(name "PLL23_AVDD18"
 					(effects
@@ -5182,7 +5191,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5201,7 +5210,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5220,7 +5229,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5239,7 +5248,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5258,7 +5267,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5277,7 +5286,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5296,7 +5305,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(hide yes)
 				(name "DDR_VDDQ"
@@ -5315,7 +5324,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5334,7 +5343,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5353,7 +5362,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5372,7 +5381,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5391,7 +5400,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5410,7 +5419,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5429,7 +5438,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(hide yes)
 				(name "PVDD"
@@ -5448,7 +5457,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(hide yes)
 				(name "DDR_VDDQ"
@@ -5467,7 +5476,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5486,7 +5495,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5505,7 +5514,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5524,7 +5533,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 8.89 180)
+				(at 19.05 12.7 180)
 				(length 5.08)
 				(name "USB_VDD33"
 					(effects
@@ -5542,7 +5551,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 8.89 180)
+				(at 19.05 12.7 180)
 				(length 5.08)
 				(hide yes)
 				(name "USB_VDD33"
@@ -5561,7 +5570,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5580,7 +5589,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(hide yes)
 				(name "PVDD"
@@ -5598,11 +5607,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
+			(pin power_in line
+				(at 19.05 -15.24 180)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "CSI_VDD18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5617,11 +5625,11 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
+			(pin passive line
+				(at 19.05 -15.24 180)
 				(length 5.08)
 				(hide yes)
-				(name "NC"
+				(name "CSI_VDD18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5637,7 +5645,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5656,7 +5664,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -11.43 180)
+				(at 19.05 -10.16 180)
 				(length 5.08)
 				(name "PLL5_AVDD18"
 					(effects
@@ -5673,11 +5681,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -19.05 -8.89 0)
+			(pin power_in line
+				(at 19.05 5.08 180)
 				(length 5.08)
-				(hide yes)
-				(name "NC"
+				(name "PLL5_DVDD11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5693,7 +5700,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5712,7 +5719,7 @@
 				)
 			)
 			(pin power_in line
-				(at -19.05 1.27 0)
+				(at -19.05 5.08 0)
 				(length 5.08)
 				(name "PVDD_ETH1"
 					(effects
@@ -5730,7 +5737,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(hide yes)
 				(name "PVDD"
@@ -5749,7 +5756,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -5768,7 +5775,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -11.43 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(hide yes)
 				(name "VSS"
@@ -8530,8 +8537,8 @@
 		(symbol "R9A07G043F05GBG#BC0_10_1"
 			(unit_name "ADC")
 			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
+				(start -10.16 6.35)
+				(end 10.16 -6.35)
 				(stroke
 					(width 0)
 					(type solid)
@@ -8541,7 +8548,25 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at 15.24 1.27 180)
+				(length 5.08)
+				(name "ADC_CH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -3.81 0)
 				(length 5.08)
 				(name "ADC_TRG"
 					(effects
@@ -8559,7 +8584,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 2.54 180)
+				(at 15.24 3.81 180)
 				(length 5.08)
 				(name "ADC_CH1"
 					(effects
@@ -8577,7 +8602,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at -15.24 3.81 0)
 				(length 5.08)
 				(name "ADC_CH0"
 					(effects
@@ -8587,6 +8612,24 @@
 					)
 				)
 				(number "AE13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 1.27 0)
+				(length 5.08)
+				(name "ADC_CH0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9567,6 +9610,164 @@
 					)
 				)
 				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R9A07G043F05GBG#BC0_18_1"
+			(unit_name "CSI")
+			(rectangle
+				(start -10.16 7.62)
+				(end 10.16 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 5.08 180)
+				(length 5.08)
+				(name "CSI_D3+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "CSI_D1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "CSI_CLK+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 5.08 0)
+				(length 5.08)
+				(name "CSI_D0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AD12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "CSI_D3-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "CSI_D1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "CSI_CLK-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "CSI_D0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AE12"
 					(effects
 						(font
 							(size 1.27 1.27)
